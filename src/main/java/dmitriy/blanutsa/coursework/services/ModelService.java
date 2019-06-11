@@ -1,0 +1,1 @@
+package dmitriy.blanutsa.coursework.services;import dmitriy.blanutsa.coursework.controllers.dto.ModelRequest;import org.springframework.ui.Model;import org.springframework.validation.BindingResult;public interface ModelService {    String getList(Model model);    String add(ModelRequest request, BindingResult result, Model model);}

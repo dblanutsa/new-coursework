@@ -1,0 +1,1 @@
+package dmitriy.blanutsa.coursework.services;import dmitriy.blanutsa.coursework.controllers.dto.ManufacturerRequest;import org.springframework.ui.Model;import org.springframework.validation.BindingResult;public interface ManufacturerService {    String getList(Model model);    String add(ManufacturerRequest request, BindingResult result);}

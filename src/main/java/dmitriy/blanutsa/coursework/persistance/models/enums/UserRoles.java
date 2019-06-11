@@ -1,0 +1,1 @@
+package dmitriy.blanutsa.coursework.persistance.models.enums;public enum UserRoles {    BASE,    ADMIN}

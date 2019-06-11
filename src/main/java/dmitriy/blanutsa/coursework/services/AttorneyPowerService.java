@@ -1,0 +1,1 @@
+package dmitriy.blanutsa.coursework.services;import dmitriy.blanutsa.coursework.controllers.dto.AttorneyPowerRequest;import org.springframework.ui.Model;import org.springframework.validation.BindingResult;public interface AttorneyPowerService {    String getList(Model model);    String add(AttorneyPowerRequest request, BindingResult result, Model model);}
